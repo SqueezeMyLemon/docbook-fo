@@ -1,0 +1,18 @@
+<fop version="1.0">
+	<renderers>
+		<renderer mime="application/pdf">
+		<!--
+			<fonts>
+			</fonts>
+		-->
+			<fonts>
+				<font metrics-url="file:///c:/bin/asciidoc-custom/docbook-fo/fonts/arialunicodems.xml" kerning="yes" embed-url="file:///c:/Windows/Fonts/ARIALUNI.TTF">
+					<font-triplet name="ArialUnicodeMS" style="normal" weight="normal"/>
+				</font>
+				<font metrics-url="file:///c:/bin/asciidoc-custom/docbook-fo/fonts/lucidasansunicode.xml" kerning="yes" embed-url="file:///c:/Windows/Fonts/l_10646.ttf">
+					<font-triplet name="LucidaSansUnicode" style="normal" weight="normal"/>
+				</font>
+			</fonts>
+		</renderer>
+	</renderers>
+</fop>
